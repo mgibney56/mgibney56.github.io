@@ -320,6 +320,10 @@ a {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
+.highlights li:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 .highlights li:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(16, 35, 61, 0.08);
